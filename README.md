@@ -96,7 +96,7 @@ curl "http://localhost:8787/cdn-cgi/local/scheduled" -X POST      # 手动触发
 - `AliyunCDTReadOnlyAccess` — CDT 流量查询
 - `AliyunECSReadOnlyAccess` — 实例状态查询
 - `AliyunECSFullAccess`（自动停机/开机需要）— 实例控制
-- BSS 只读权限（费用分析需要，可选）— 余额/账单查询
+- `AliyunBSSReadOnlyAccess` BSS 只读权限（费用分析需要，可选）— 余额/账单查询
 
 > ⚠️ 安全建议：使用 RAM 子账号并授予最小权限，不要把主账号 AccessKey 填入。
 
