@@ -36,7 +36,7 @@
 1. **连接仓库**
    - Dashboard → Workers & Pages → **Create** → **Workers** → **Deploy with Git**
    - 授权 GitHub → 选择 `kfqkfy/cdt-monitor-worker` → 分支 `main`
-   - 构建/部署命令保持默认（`npm run deploy`）
+   - 构建/部署命令保持默认（`npm run deploy`） //cloudflare面板部署到这步就全部完成
 2. **添加 Cron 触发器**（监控需要，可选但建议）
    - **Settings** → **Triggers** → **Cron Triggers** → `* * * * *`
 3. **初始化表结构**（首次部署后执行一次）
